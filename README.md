@@ -35,13 +35,10 @@ When adding a new script:
 
 ## Available Scripts
 
-No scripts are published yet.
+- Calendar:
+  - `calendar/sync-holiday-calendar-out-of-office.js`: syncs holidays from the Holidays in Japan calendar into the primary calendar as Out of Office events with silent auto-decline for conflicting invitations
 
-Future entries should be listed by service, for example:
-
-- Calendar: `calendar/sync-holiday-calendar-out-of-office.js`
-- Gmail: `gmail/archive-newsletters.js`
-- Sheets: `sheets/export-sheet-to-csv.js`
+Future entries should be listed by service as they are added.
 
 ## Planned Examples
 
