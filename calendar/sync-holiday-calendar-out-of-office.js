@@ -160,7 +160,6 @@ function buildOutOfOfficeEventResource_(config, holiday) {
 
   return {
     summary: config.outOfOfficeTitlePrefix + holiday.summary,
-    description: buildManagedDescription_(holiday),
     start: {
       dateTime: eventWindow.startDateTime,
       timeZone: config.timeZone,
@@ -185,14 +184,6 @@ function buildOutOfOfficeEventResource_(config, holiday) {
       declineMessage: '',
     },
   };
-}
-
-function buildManagedDescription_(holiday) {
-  return [
-    'Managed by google-workspace-automations.',
-    'Source: Holidays in Japan calendar.',
-    'Source event ID: ' + holiday.id,
-  ].join('\n');
 }
 
 function buildTimedOutOfOfficeWindow_(holiday, timeZone) {
