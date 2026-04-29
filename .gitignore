@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Optional local GAS tooling artifacts
+.clasp.json
+appsscript.json
+
+# Dependency directories
+node_modules/
