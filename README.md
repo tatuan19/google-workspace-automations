@@ -1,4 +1,4 @@
-# google-workspace-automations
+# Google Workspace Automations
 
 Reusable Google Workspace automations built with Google Apps Script.
 
